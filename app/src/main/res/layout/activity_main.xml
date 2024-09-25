@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:background="@drawable/background_3">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="400dp"
+        android:layout_height="90dp"
+        app:srcCompat="@drawable/screenshot_2024_03_13_111322" />
+
+    <Button
+        android:id="@+id/adminloginbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Admin Login"
+        android:textSize="20dp"
+        android:layout_margin="12dp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#344AC5"
+        app:cornerRadius="28dp"/>
+
+    <Button
+        android:id="@+id/donorregisterButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Donor Register"
+        android:textSize="20dp"
+        android:layout_margin="12dp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#344AC5"
+        app:cornerRadius="28dp"/>
+
+    <Button
+        android:id="@+id/bonorloginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="Donor Login"
+        android:textSize="20dp"
+        android:layout_margin="12dp"
+        android:backgroundTint="#344AC5"
+        app:cornerRadius="28dp"/>
+
+    <Button
+        android:id="@+id/patientregisterButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Patient Registration"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:layout_margin="12dp"
+        android:backgroundTint="#344AC5"
+        app:cornerRadius="28dp"/>
+
+    <Button
+        android:id="@+id/patientloginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Patient Login"
+        android:textSize="20dp"
+        android:layout_margin="12dp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#344AC5"
+        app:cornerRadius="28dp"/>
+
+
+</LinearLayout>

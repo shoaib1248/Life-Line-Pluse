@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "483136621622",
+    "firebase_url": "https://organsharing-1e24f-default-rtdb.firebaseio.com",
+    "project_id": "organsharing-1e24f",
+    "storage_bucket": "organsharing-1e24f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:483136621622:android:6e81b84a336f54d34d1c97",
+        "android_client_info": {
+          "package_name": "com.example.organsharing"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPq6_UqwhN2gz4WNBn2y6DPbo9DsZxIrQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".view.PatientLogin"
+    android:layout_margin="0dp"
+    android:gravity="center"
+    android:background="@drawable/background_3">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter User ID"
+        android:textColorHint="@color/black"
+        android:id="@+id/loginPatientPhone"/>
+
+    <EditText
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:textColorHint="@color/black"
+        android:id="@+id/loginPatientPass"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/loginPatientConfirm"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#344AC5"
+        app:cornerRadius="28dp"/>
+
+    <Button
+        android:id="@+id/patlogiback"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#344AC5"
+        app:cornerRadius="28dp"/>
+
+</LinearLayout>
