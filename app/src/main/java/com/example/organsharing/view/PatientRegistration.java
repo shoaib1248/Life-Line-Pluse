@@ -18,7 +18,7 @@ import com.example.organsharing.R;
 
 public class PatientRegistration extends AppCompatActivity{
 
-    EditText e1,e2,e3,e4,e5,e6,e7;
+    EditText e1,e2,e3,e4,e5,e6,e8;
     Button b1,b2;
 
     @SuppressLint("MissingInflatedId")
@@ -34,7 +34,7 @@ public class PatientRegistration extends AppCompatActivity{
         e4=(EditText)findViewById(R.id.registerPatientMobile);
         e5=(EditText)findViewById(R.id.registerPatientName);
         e6=(EditText)findViewById(R.id.registerPatientemail);
-        e7=(EditText)findViewById(R.id.registerPatientaddress);
+        e8=(EditText)findViewById(R.id.registerPatientaddress);
 
         b1=(Button)findViewById(R.id.registerButton);
         b2=(Button)findViewById(R.id.patientback);
@@ -50,7 +50,7 @@ public class PatientRegistration extends AppCompatActivity{
                 String mobile=e4.getText().toString();
                 String name=e5.getText().toString();
                 String email=e6.getText().toString();
-                String address=e7.getText().toString();
+                String address=e8.getText().toString();
 
                 if(patientname==null|| password==null|| conformPassword==null|| mobile==null|| name==null)
                 {
